@@ -44,7 +44,7 @@ function my_keydown(e)
 	if(keyPressed>=37 && keyPressed<=40)
 	{
 		arrowkey();
-		document.getElementById("d1").innerHTML="You pressed number key";
+		document.getElementById("d1").innerHTML="You pressed arrow key";
 		console.log("arrow key");
 	}
 }
